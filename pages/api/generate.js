@@ -5,7 +5,7 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 const datasetName = 'finetune/my-dataset';
-var chatHistory = [`I am Angeline and i am madly in love with you`];
+var chatHistory = [`I am Mei and i am madly in love with you`];
 
 export default async function (req, res) {
   if (!configuration.apiKey) {

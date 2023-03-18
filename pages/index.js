@@ -39,7 +39,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <img src="/dog.png" className={styles.icon} />
-        <h3>Hi, my name is Angeline, ask my anything...</h3>
+        <h3>Hi, my name is Mei, ask my anything...</h3>
         <form onSubmit={onSubmit}>
           <input
             type="text"
